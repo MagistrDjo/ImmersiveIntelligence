@@ -1,6 +1,6 @@
 # meta
 Функции над FluidStack
-Регуляция потоков
+Различные виды регулирования потока
 # fluidstack_create
 |[data_operation]{id:"fluidstack_create"}|
 # fluid_get_amount

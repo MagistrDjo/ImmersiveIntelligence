@@ -3,74 +3,75 @@ POL
 Компьютерная революция
 # intro
 @level_computer
-POL — это язык программирования, используемый [мейнфреймами] для создания наборов исполняемых инструкций, называемых **программами**.
+POL это язык программирования, используемый [компьютерами].<br>
+Для [компьютеров] создают наборы исполняемых инструкций, называемых **Программами**.
 |[wip_notice]|
 # code_compilation0
-Программа **POL** представляет собой последовательность операторов, каждый из которых занимает отдельную строку. Перед использованием любых операций с данными необходимо импортировать требуемую библиотеку [функциональных плат](_functional_circuits.md) с помощью оператора **USE**.
-Переменные объявляются с использованием имени типа, за которым следует буква переменной с префиксом **@**, и опционально — начальное значение.
+Программа **POL** представляет собой последовательность операторов, каждый из которых занимает отдельную строку. Перед использованием любых операций с данными необходимо импортировать требуемую библиотеку [печатной платы](_functional_circuits.md) с помощью оператора **USE**.
+Переменные объявляются с использованием имени типа, за которым следует буква переменной с префиксом **@** и опционально, начальное значение.
 # code_compilation0_example
 |[pol_code]{code:"use BASIC\\n\\ninteger @a = 5\\nfloat @b = 3.14\\nstring @c = \"hello\"\\nboolean @d = 1"}|
 # code_compilation1
-Операции вызываются с использованием **польской нотации** — сначала идёт операция, затем её аргументы.
-Результат операции можно сохранить в переменной с помощью знака **=**. Операции также можно вызывать по полному имени вместо их символа.
+Operations are called using **Polish Notation** - the operator comes first, followed by its arguments.
+The result of an operation can be stored in a variable using the **=** sign. Operations can also be called by their full name instead of their symbol.
 # code_compilation1_example
 |[pol_code]{code:";assign the sum of 2 and 3 to @a\\ninteger @a = + 2 3\\n\\n;nested operations\\ninteger @b = * @a + 1 2\\n\\n;using full operation name\\nfloat @c = add 1.5 2.5"}|
 # code_execution0
-По умолчанию программы выполняются **по одному оператору за тик**. Оператор **WAIT** приостанавливает выполнение на заданное число тиков.
-Оператор **IF** проверяет условие и выполняет следующий оператор или блок кода только когда оно выполнено. **ELSE** обрабатывает противоположный случай.
+Programs are executed **one statement per tick** by default. The **WAIT** statement pauses execution for a given number of ticks.
+The **IF** statement checks a condition and executes the next statement or code block only when it is met. **ELSE** handles the opposite case.
 # code_execution0_example
 |[pol_code]{code:"integer @a = 10\\n\\nif > @a 5\\n  type \"a is big\"\\nelse\\n  type \"a is small\"\\n\\nwait 20"}|
 # code_execution1
-**MARK** и **GOTO** позволяют создавать помеченные точки перехода и циклы. **EXEC** выполняет переход к метке и затем возвращается, действуя как вызов функции.
-Блоки кода, созданные отступами (компилируются как **BEGIN**/**END**), группируют несколько операторов в один.
+**MARK** and **GOTO** allow creating labeled jump points and loops. **EXEC** jumps to a label and returns afterwards, acting like a function call.
+Code blocks created with indentation (compiled as **BEGIN**/**END**) group multiple statements into one.
 # code_execution1_example
 |[pol_code]{code:"mark loop:\\n  integer @a = + @a 1\\n  type @a\\n  if < @a 10\\n    goto loop:\\n\\nmark greet:\\n  type \"hello!\"\\nend\\n\\nexec greet:"}|
-# statements1
-**Операторы** — это строительные блоки программы на **POL**. Каждый **оператор** имеет определённое имя, по которому он вызывается, и выполняет различное действие.
-Примерами действий являются присваивание значения переменной, остановка программы или запуск внутренней функции.
-Каждый **оператор** занимает ровно одну строку, но некоторые, например оператор if, требуют другого оператора для правильной работы.
-# statements2
-На следующих страницах перечислены все **операторы**, их использование и примеры применения.
+# statements
+**Statements** are the building blocks of a **POL** program. Each **Statement** has a distinct name it's called by and performs a different action.
+Examples of an action are setting a value of a variable, stopping the program, or running an internal function.
+Each **Statement** takes exactly one line, but some, like the if **Statement** require another statement to work properly.
+The following pages list all the **Statements**, their usage, and exemplary use cases.
 # statements_use
-Оператор **USE** используется для включения библиотеки функций из [функциональной платы](_functional_circuits.md), которая будет использоваться программой.
+The **USE** statement is used to include a library of functions from a [Circuit](_functional_circuits.md) to be used by the program.
 # statements_begin_end
-Операторы **BEGIN** и **END** используются для обозначения фрагмента программы, называемого *блоком кода*.
-*Блок кода* рассматривается как один оператор, но если он состоит из более чем одного оператора, его время выполнения будет больше — равным сумме всех операторов внутри него.
+The **BEGIN** and **END** statements are used to mark a fragment of a program, called a *code block*.
+A *code block* is treated as a single statement, but if consisting of more than one statements, it will have a longer execution time, equal to the sum of all the statements within it.
 # statements_begin_end2
-Несколько *блоков кода* могут быть вложены друг в друга, но каждому оператору **BEGIN** должен соответствовать оператор **END**.
-Хотя оба существуют как ключевые слова, рекомендуемый способ их использования — добавление отступов в коде.
+Multiple *code blocks* can be nested within each other, but each **BEGIN** statement must have a corresponding **END** statement.
+Although both exist as keywords, the recommended way to use them is through adding indentation to the code.
 # statements_wait
-Оператор **WAIT** используется для приостановки программы на указанное число тиков.
-В течение этого времени программа не будет выполнять никакие другие операторы.
+The **WAIT** statement is used to pause the program for a specified amount of ticks.
+During this time, the program will not execute any other statements.
 # statements_sign
-Оператор **SIGN** используется для переключения одной из 16 цветных сигнальных ламп на компьютерном терминале в зажжённое или незажжённое состояние.
-Состояния сохраняются и остаются неизменными до тех пор, пока не будут изменены другим оператором **SIGN** или пока питание терминала не будет отключено.
+The **SIGN** statement is used to switch one of the 16 colored signal lamps on a Computer Terminal to a lit or unlit state.
+The states are persistent and will remain until changed by another **SIGN** statement or power is cut off from the terminal.
 # statements_mark
-Оператор **MARK** используется для установки метки в программе, к которой можно перейти с помощью оператора [GOTO](#statements_goto).
-Метка **MARK** не может содержать пробелы или имена, зарезервированные операциями, и должна быть уникальной в пределах программы.
+The **MARK** statement is used to set a label in the program that can be jumped to by the [GOTO](#statements_goto) statement.
+A **MARK** label cannot contain spaces or names reserved by operations, and must be unique within the program.
 # statements_goto
-Оператор **GOTO** используется для перехода к метке, установленной оператором [MARK](#statements_mark).
-Это может быть полезно для создания циклов или условных переходов в программе.
+The **GOTO** statement is used to jump to a label set by the [MARK](#statements_mark) statement.
+This can be useful for creating loops or conditional jumps in the program.
 # statements_exec
-Оператор **EXEC** используется для перехода к метке, установленной оператором [MARK](#statements_mark), и последующего возврата в исходное место программы.
-Это может быть полезно для определения вызываемых *функций* в программе.
+The **EXEC** statement is used to jump to a label set by the [MARK](#statements_mark) statement and then return to the original position in the program.
+This can be useful for defining callable *functions* in the program.
 # statements_ext
-Оператор **EXT** используется для вызова другой программы POL из текущей.
-Программа будет использовать ту же память, но не будет использовать импортированные функции и связи с [Внешним устройством] из вызывающей программы.
+The **EXT** statement is used call another POL program from the current one.
+The program will share the same memory, but will not share imported functions and [External Device] links from the one calling it.
 # statements_if
-Оператор **IF** используется для выполнения блока кода, если условие выполнено.
-Если условие не выполнено, программа пропустит следующую инструкцию или блок кода.
+The **IF** statement is used to execute a block of code if a condition is met.
+If the condition is not met, the program will skip the next instruction or block of code.
 # statements_else
-Оператор **ELSE** используется для выполнения блока кода, если условие предшествующего [IF](#statements_if) не выполнено.
+The **ELSE** statement is used to execute a block of code if the condition of the preceding [IF](#statements_if) statement is not met.
 # statements_page
-Оператор **PAGE** используется для переключения [страницы памяти](data_main.md#packets_basics) компьютера на другую.
-Это может быть полезно для задания отдельной памяти для разных процедур программы.
+The **PAGE** statement is used to switch the [memory page](data_main.md#packets_basics) of the computer to a different one.
+This can be useful for setting separate memory for different routines of the program.
 # statements_wipe
-Оператор **WIPE** используется для очистки всей текущей страницы памяти компьютера.
+The **WIPE** statement is used to clear all the current memory page of the computer.
 # statements_copy
-Оператор **COPY** используется для копирования значения одной переменной в другую.
-Скопированная переменная будет иметь то же значение, что и исходная, но изменения одной не повлияют на другую.
+The **COPY** statement is used to copy the value of one variable to another.
+The copied variable will have the same value as the original, but changes to one will not affect the other.
 # statements_move
-Оператор **MOVE** используется для перемещения значения одной переменной в другую, оставляя исходную переменную пустой.
+The **MOVE** statement is used to move the value of one variable to another, leaving the original variable empty.
 # statements_swap
-Оператор **SWAP** используется для обмена значениями двух переменных в памяти.
+The **SWAP** statement is used to exchange the values of two variables in memory.
+
