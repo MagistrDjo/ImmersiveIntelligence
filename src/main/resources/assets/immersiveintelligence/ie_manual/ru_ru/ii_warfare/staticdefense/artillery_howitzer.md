@@ -4,12 +4,12 @@
 # intro
 @level_circuits,hammer_electric,upgradable
 |[multiblock]{mb:"II:ArtilleryHowitzer"}|
-*Установка Точечной Бомбардировки*, также известное как **артиллерийская установка** это оружие непрямой наводки, прекрасно подходящее для атаки далеко расположенных целей.
+*Установка Точечной Бомбардировки*, также известное как **Артиллерийская установка** — это оружие непрямой наводки, прекрасно подходящее для атаки далеко расположенных целей.
 # forming_block
-Она собирается ударом [молотка инженера](introduction#introductionHammer) по бетону с противоположной стороны от редстоуного инженерного блока.
+Она собирается ударом [молота инженера](introduction#introductionHammer) по бетону с противоположной стороны от редстоуного инженерного блока.
 # details
-**Артиллерийская Установка** состоит из бетонного бункера, [орудийной платформы], [заряжающего механизма], столов управления и [стального люка], который можно открыть, подав [сигнал редстоуна].<br>
-[Снаряды](bullet_production.md#bullet) подаются в [спускающий] конвейер, а отработанные гильзы выбрасываются из [восходящего] конвейера.
+**Артиллерийская установка** состоит из бетонного бункера, [орудийной платформы], [заряжающего механизма], столов управления и [стального люка], который можно открыть, подав [сигнал редстоуна].<br>
+[Снаряды](bullet_production.md#bullet) подаются в [нисходящий] конвейер, а отработанные гильзы выбрасываются из [восходящего] конвейера.
 Машина требует **большого количества энергии** для работы.
 # operation
 **Установка** управляется командами с помощью [пакетов данных](data_main#packetsbasics).<br>
@@ -29,15 +29,15 @@
 Вместо задачи угла напрямую [баллистический компьютер](ballistic_computer) может использоваться для конвертации [координат цели в углы наклона], а [сканирующий конвейер](scanning_conveyor) для считывания веса [снаряда].
 # callback0
 **Обратные данные**
-|[data_callback]{type:"integer", name:"get_energy", label:"Накопленная энергия", returns:"Кол-во запасённой энергии (IF)"}|
-|[data_callback]{type:"string", name:"get_state", label:"Current State", returns:"idle, loading, unloading, shooting"}|
-|[data_callback]{type:"integer", name:"get_state_num", label:"Current State in numbers", returns:"0,1,2,3"}|
-|[data_callback]{type:"float", name:"get_state_progress", label:"State progress in percentage", returns:"Progress value 0:1"}|
+|[data_callback]{type:"integer", name:"get_energy", label:"Запасённая энергия", returns:"Кол-во запасённой энергии (IF)"}|
+|[data_callback]{type:"string", name:"get_state", label:"Текущее состояние", returns:"idle, loading, unloading, shooting"}|
+|[data_callback]{type:"integer", name:"get_state_num", label:"Текущее состояние в цифрах", returns:"0,1,2,3"}|
+|[data_callback]{type:"float", name:"get_state_progress", label:"Прогресс состояния в процентах", returns:"Значение прогресса 0:1"}|
 |[data_callback]{type:"float", name:"get_yaw", label:"Текущее рысканье", returns:"Горизонтальный угол при текущем повороте батареи"}|
 |[data_callback]{type:"float", name:"get_pitch", label:"Текущий тангаж", returns:"Вертикальный угол при текущем повороте батареи"}|
 |[data_callback]{type:"float", name:"get_planned_yaw", label:"Планируемое рысканье", returns:"Горизонтальный угол по окончанию поворота батареи"}|
 |[data_callback]{type:"float", name:"get_planned_pitch", label:"Планируемый тангаж", returns:"Вертикальный угол по окончанию поворота батареи"}|
 # callback2
-|[data_callback]{type:"float", name:"get_platform_height", label:"Current platform elevation", returns:"Progress value 0:1"}|
-|[data_callback]{type:"string", name:"get_door_opened", label:"Текущее состояние двери", returns:"Opened(открытое) или closed(закрытое)"}|
-|[data_callback]{type:"string", name:"get_door_opening", label:"Current ongoing of door", returns:"Opening or closing"}|
+|[data_callback]{type:"float", name:"get_platform_height", label:"Текущая высота платформы", returns:"Значение прогресса 0:1"}|
+|[data_callback]{type:"string", name:"get_door_opened", label:"Текущее состояние двери", returns:"Opened (открыто) или closed (закрыто)"}|
+|[data_callback]{type:"string", name:"get_door_opening", label:"Текущее действие двери", returns:"Opening или closing"}|

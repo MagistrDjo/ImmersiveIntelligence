@@ -4,13 +4,12 @@ Stand for anthem!
 # intro
 @hammer;upgradeable;repairable;paintable
 |[multiblock]{mb:"II:Flagpole"}|
-The **Flagpole** is a multiblock that allows marking of nearby territory, keeping it loaded and under control, while also
-displaying a [stylish banner] for friends and foes to recognise. To form it, use a [hammer](introduction#introductionHammer) on the middle razor wire block.
+The **Flagpole** is a multiblock that allows marking of nearby territory, keeping it loaded and under control, while also displaying a [stylish banner] for friends and foes to recognise. To form it, use a [hammer](introduction#introductionHammer) on the middle razor wire block.
 # chunk_loading
 The **Flagpole** [claims](owner_identity.md) and keeps [8 surrounding chunks loaded along with the one it's placed in] for its [owner](owner_identity.md), and it does not require any resources to do so.
 Another function is a display for [banners] in form of a [flag]. To place a banner, use it on one of the wooden pole blocks.
 If want to update your banner design, you can remove the placed banner by using [wire cutters](wiring#wiringCutters).
-# faction)settings
+# faction_settings
 By opening the **Flagpole's** interface, you can see a map of the surrounding area with an ability to view it.
 Another section of it allows you to manage basic settings of your [Owner Identity](owner_identity.md).
 This view is handy, but very limited compared to one offered by the [Strategic Command Table](../../ii_intel/strategic_command_table.md).

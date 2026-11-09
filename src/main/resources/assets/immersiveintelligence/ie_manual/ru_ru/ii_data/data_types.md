@@ -17,11 +17,11 @@
 |[data_packet]{data:{a:{Type:"string",Value:"123"}}}|
 Несмотря на то, что для человека *текст* «123» выглядит идентично *числу* 123, машина обработки данных видит его совершенно иначе. Текстовый тип [не может быть преобразован] в числовой тип, поэтому он также возвращает [целое число по умолчанию], или, проще говоря: 0.
 # default_value3
-Преобразование будет выполнено корректно в случае, если это преобразование между **совместимыми типами** — двумя типами, хранящими информацию схожего типа, например, при преобразовании [Float](#float) в [Integer](#integer).
+Единственный случай, когда такое преобразование сработает корректно — между двумя **совместимыми типами** — двумя типами, хранящими информацию схожего типа, например, при преобразовании [Float](#float) в [Integer](#integer).
 |[data_packet]{data:{a:{Type:"float",Value:123}}}|  
 Этот механизм также является одной из основных концепций **строгой типизации**.
 # default_value4
-It is possible to convert between types using [Casting Operations](functions/type_conversion.md) in an [Arithmetic-Logic Machine](arithmetic_logic_machine.md) or a [Mainframe Computer], using the [Type Conversion Circuit](functions/_functional_circuits.md).
+Можно преобразовывать типы с помощью [операций приведения](functions/type_conversion.md) в [арифметико-логической машине](arithmetic_logic_machine.md) или [мейнфрейме], используя [плату преобразования типов](functions/_functional_circuits.md).
 |[data_operation]{id:"to_string"}|
 # data_overflow
 Каждый **тип** ограничен размером или длиной.
@@ -34,7 +34,7 @@ It is possible to convert between types using [Casting Operations](functions/typ
 К ним относятся: [Null](#null), [Integer](#integer), [Float](#float), [Boolean](#boolean) и [String](#string).
 
 **Составные типы** — состоят из [нескольких] **базовых типов** и [объединяют их в один объект] для представления более сложной информации.
-К ним относятся [ItemStack](#itemstack), [Array](#array), [FluidStack](#fluidstack), [Vector](#vector), [Entity](#entity) и [Map](#map).
+К ним относятся [ItemStack](#itemstack), [Array](#array), [FluidStack](#fluidstack), [Vector](#vector), [Entity](#entity), [Map](#map) и [LogiTag](#logitag).
 # null
 |[datatype]{type:"%SECTION%",x:52}|
 [Null] — это [специальный] тип данных, который не имеет [значения].
@@ -57,7 +57,7 @@ It is possible to convert between types using [Casting Operations](functions/typ
 Его основное применение — в логических функциях с использованием [булевой алгебры].
 # itemstack
 |[datatype]{type:"%SECTION%",x:52}|
-[ItemStack] — это [составной] тип данных, содержащий информацию о конкретном [стеке] предметов: его [ID], [количество], [метаданные] и [NBT тег].
+[ItemStack] — это [составной] тип данных, содержащий информацию о конкретном [стеке] предметов: его [ID], [количество], [метаданные] (урон) и [NBT тег].
 В основном он используется для установки фильтра предметов или пометки конкретного предмета для выполнения задачи в машине.
 # fluidstack
 |[datatype]{type:"%SECTION%",x:52}|
@@ -69,7 +69,7 @@ It is possible to convert between types using [Casting Operations](functions/typ
 Он используется для представления значений в трехмерном пространстве, таких как положение или движение объектов.
 # logitag
 |[datatype]{type:"%SECTION%",x:52}|
-[LogiTag] представляет собой [составной] тип данных, хранящий информацию о [Логистическом запросе](../ii_logistics/task_system.md#logitags): как [имя], [описание], [право собствености], [исходный пункт], [пункт назначения], [цвет] и [порядковый номер].
+[LogiTag] представляет собой [составной] тип данных, хранящий информацию о [Логистическом манифесте](../ii_logistics/task_system.md#logitags): его [имя], [описание], [владельца], [исходный пункт], [пункт назначения], [цветовую метку] и [порядковый номер].
 Он используется для идентификации грузовых контейнеров, таких как ящики.
 # entity
 |[datatype]{type:"%SECTION%",x:52}|
@@ -88,7 +88,7 @@ It is possible to convert between types using [Casting Operations](functions/typ
 Часто используется для представления структуры с именованными полями, используя [String](#string) в качестве [ключей] и другие типы в качестве [значений].
 # expression
 |[datatype]{type:"%SECTION%",x:52}|
-[Выражение] — это [исполняемый] тип данных, используемый схемами [арифметико-логической машины](arithmetic_logic_machine).
+[Выражение] — это [исполняемый] тип данных, используемый платами [арифметико-логической машины](arithmetic_logic_machine).
 Он выполняет предварительно запрограммированную функцию над [входными параметрами] в виде значений или их [accessor](#accessor) и возвращает значение.
 # accessor
 |[datatype]{type:"%SECTION%",x:52}|

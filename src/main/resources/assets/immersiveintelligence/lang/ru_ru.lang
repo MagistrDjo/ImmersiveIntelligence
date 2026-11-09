@@ -231,7 +231,7 @@ item.immersiveintelligence.weapon_upgrade.precise_bipod.name=Точные сош
 item.immersiveintelligence.weapon_upgrade.hasty_bipod.name=Полевые сошки
 item.immersiveintelligence.weapon_upgrade.scope.name=Прицел
 item.immersiveintelligence.weapon_upgrade.infrared_scope.name=Инфракрасный прицел
-item.immersiveintelligence.weapon_upgrade.shield.name=Прикрепляемые щиты
+item.immersiveintelligence.weapon_upgrade.shield.name=Прикрепляемые бронещитки
 item.immersiveintelligence.weapon_upgrade.tripod.name=Тренога
 
 item.immersiveintelligence.weapon_upgrade.sturdy_barrel.name=Усиленный ствол

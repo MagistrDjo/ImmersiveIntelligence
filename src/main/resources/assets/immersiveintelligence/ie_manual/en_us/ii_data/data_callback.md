@@ -2,8 +2,7 @@
 Data Callback
 'Tis to thee
 # main
-**Data Callback** is a universal method for getting information about current states of machines through
-the [Data System](data_main.md).
+**Data Callback** is a universal method for getting information about current states of machines through the [Data System](data_main.md).
 To get a reply from a device supporting callback, the packet has to be structured like this:
 |[data_packet]{h:32,data:{c:{Type:"string",Value:"callback"},a:{Type:"string",Value:"get_something"},d:{Type:"string",Value:"get_something_else"}}}|
 # main1

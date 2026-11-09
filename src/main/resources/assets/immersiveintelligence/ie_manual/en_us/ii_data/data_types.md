@@ -34,7 +34,7 @@ Types are separated into two groups:
 These are: [Null](#null), [Integer](#integer), [Float](#float), [Boolean](#boolean) and [String](#string).
 
 **Compound Types** - consisting of [multiple] **Basic Types** and [joining them into one object], for representing a more sophisticated information.
-These include [ItemStack](#itemstack), [Array](#array), [FluidStack](#fluidstack), [Vector](#vector), [Entity](#entity), [LogiTag](#logitag), and [Map](#map).
+These include [ItemStack](#itemstack), [Array](#array), [FluidStack](#fluidstack), [Vector](#vector), [Entity](#entity), [LogiTag](#logitag) and [Map](#map).
 # null
 |[datatype]{type:"%SECTION%",x:52}|
 [Null] is a [special] data type, which has [no value].
