@@ -1,4 +1,4 @@
-#Над переводом работали: Королевский кот (Передаю привет вискасу и тапкам. МЯУ!), Carver, Lolscope, MonsieurFeb, MrKoteo, Magistr Djo; _NerzuL_ (@_nerzu1_) - текущий переводчик; по вопросам перевода обращаться на дискорд сервере The Engineering Departament(Департамент/сервер II); 
+#Над переводом работали: Королевский кот (Передаю привет вискасу и тапкам. МЯУ!). Magistr Djo и _NerzuL_ - текущие переводчики. Спасибо за помощь: Carver, Lolscope, MonsieurFeb, MrKoteo.
 #Items
 itemGroup.immersiveintelligence=Immersive Intelligence
 itemGroup.ii.resources=Ресурсы
@@ -84,53 +84,68 @@ item.immersiveintelligence.material_ingot.platinum.name=Платиновый с�
 item.immersiveintelligence.material_ingot.zinc.name=Цинковый слиток
 item.immersiveintelligence.material_ingot.tungsten.name=Вольфрамовый слиток
 item.immersiveintelligence.material_ingot.brass.name=Латунный слиток
-item.immersiveintelligence.material_ingot.advanced_electronic_alloy.name=Слиток продвинутого электронного сплава
 item.immersiveintelligence.material_ingot.silicon.name=Слиток кремния
 item.immersiveintelligence.material_ingot.magnet.name=Магнит
 item.immersiveintelligence.material_ingot.duraluminium.name=Дюралюминиевый слиток
+item.immersiveintelligence.material_ingot.tin.name=Олованный слиток
+item.immersiveintelligence.material_ingot.stainless_steel.name=Слиток нержавеющей стали 
+item.immersiveintelligence.material_ingot.chromium.name=Хромовый слиток
 
 item.immersiveintelligence.material_rod.brass.name=Латунный прут
 item.immersiveintelligence.material_rod.tungsten.name=Вольфрамовый прут
 item.immersiveintelligence.material_rod.zinc.name=Цинковый прут
 item.immersiveintelligence.material_rod.platinum.name=Платиновый прут
 item.immersiveintelligence.material_rod.duraluminium.name=Дюралюминиевый прут
+item.immersiveintelligence.material_rod.tin.name=Олованный прут
+item.immersiveintelligence.material_rod.stainless_steel.name=Прут нержавеющей стали 
+item.immersiveintelligence.material_rod.chromium.name=Хромовый прут
 
 item.immersiveintelligence.material_dust.platinum.name=Платиновая пыль
 item.immersiveintelligence.material_dust.zinc.name=Цинковая пыль
 item.immersiveintelligence.material_dust.tungsten.name=Вольфрамовая пыль
 item.immersiveintelligence.material_dust.brass.name=Латунная пыль
-item.immersiveintelligence.material_dust.advanced_electronic_alloy.name=Пыль продвинутого электронного сплава
 item.immersiveintelligence.material_dust.silicon.name=Кремниевая пыль
 item.immersiveintelligence.material_dust.fluorite.name=Флюоритовая пыль
 item.immersiveintelligence.material_dust.quartz.name=Кварцевая пыль
 item.immersiveintelligence.material_dust.quartz_dirty.name=Грязная кварцевая пыль
 item.immersiveintelligence.material_dust.phosphorus.name=Фосфорный порошок
 item.immersiveintelligence.material_dust.duraluminium.name=Дюралюминиевая пыль
+item.immersiveintelligence.material_dust.tin.name=Олованная пыль
+item.immersiveintelligence.material_dust.stainless_steel.name=Пыль нержавеющей стали 
+item.immersiveintelligence.material_dust.chromium.name=Хромовая пыль
+item.immersiveintelligence.material_dust.slag.name=Slag Dust
 
 item.immersiveintelligence.material_plate.platinum.name=Платиновая пластина
 item.immersiveintelligence.material_plate.zinc.name=Цинковая пластина
 item.immersiveintelligence.material_plate.tungsten.name=Вольфрамовая пластина
 item.immersiveintelligence.material_plate.brass.name=Латунная пластина
-item.immersiveintelligence.material_plate.advanced_electronic_alloy.name=Пластина продвинутого электронного сплава
 item.immersiveintelligence.material_plate.silicon.name=Кремниевая пластина
 item.immersiveintelligence.material_plate.rubber_raw.name=Лист сырого каучука
 item.immersiveintelligence.material_plate.duraluminium.name=Дюралюминиевая пластина
+item.immersiveintelligence.material_plate.tin.name=Олованная пластина
+item.immersiveintelligence.material_plate.stainless_steel.name=Пластина нержавеющей стали
+item.immersiveintelligence.material_plate.chromium.name=Хромовая пластина
 
 item.immersiveintelligence.material_nugget.platinum.name=Кусочек платины
 item.immersiveintelligence.material_nugget.zinc.name=Кусочек цинка
 item.immersiveintelligence.material_nugget.tungsten.name=Кусочек вольфрама
 item.immersiveintelligence.material_nugget.brass.name=Кусочек латуни
-item.immersiveintelligence.material_nugget.advanced_electronic_alloy.name=Кусочек продвинутого электронного сплава
 item.immersiveintelligence.material_nugget.silicon.name=Кусочек кремния
 item.immersiveintelligence.material_nugget.duraluminium.name=Кусочек дюралюминия
 item.immersiveintelligence.material_nugget.rubber.name=Кусочек резины
+item.immersiveintelligence.material_nugget.tin.name=Кусочек олова
+item.immersiveintelligence.material_nugget.stainless_steel.name=Кусочек нержавеющей стали
+item.immersiveintelligence.material_nugget.chromium.name=Кусочек хрома
 
 item.immersiveintelligence.material_wire.tungsten.name=Вольфрамовый провод
 item.immersiveintelligence.material_wire.brass.name=Латунный провод
 
-item.immersiveintelligence.material_gem.fluorite.name=Незерский флюорит
+item.immersiveintelligence.material_gem.fluorite.name=Кристалл флюорита
 #Based on real-life mineral glauconite, though the word phosphorus is easier to remember
-item.immersiveintelligence.material_gem.phosphorus.name=Незерский фосфор
+item.immersiveintelligence.material_gem.phosphorus.name=Кристалл фосфора
+#Orpiment
+item.immersiveintelligence.material_gem.sulfur.name=Кристалл серы
+item.immersiveintelligence.material_gem.salt.name=Кристалл соли
 
 item.immersiveintelligence.material_boule.silicon.name=Кремниевая буля
 
@@ -160,6 +175,36 @@ item.immersiveintelligence.material.artificial_leather.name=Искусствен
 item.immersiveintelligence.material.natural_rubber.name=Сырой каучук
 item.immersiveintelligence.material.rubber_belt.name=Резиновый ремень
 item.immersiveintelligence.material.rubber_tire.name=Резиновая шина
+
+#Chemistry Items
+item.immersiveintelligence.material.sodium.name=Натрий
+item.immersiveintelligence.material.potassium.name=Калий
+item.immersiveintelligence.material.ammonium_nitrate.name=Нитрат аммония
+item.immersiveintelligence.material.potassium_hydroxide.name=Гидрооксид калия
+item.immersiveintelligence.material.potassium_carbonate.name=Карбонат калия
+item.immersiveintelligence.material.synthetic_rubber_crumbs.name=Synthetic Rubber Crumbs
+item.immersiveintelligence.material.silicon_dioxide.name=Диоксид кремния                     
+item.immersiveintelligence.material.sodium_carbonate.name=Карбонат натрия
+item.immersiveintelligence.material.nitrocellulose.name=Нитроцеллулоза
+item.immersiveintelligence.material.dust_cordite.name=Пыль кордита
+item.immersiveintelligence.material.sodium_hydroxide.name=Гидрооксид натрия
+item.immersiveintelligence.material.zinc_sulfide.name=Сулфид цинка
+item.immersiveintelligence.material.thermite.name=Термит
+
+item.immersiveintelligence.material_catalyst.copper.name=Медный катализатор
+item.immersiveintelligence.material_catalyst.iron.name=Железный катализатор
+item.immersiveintelligence.material_catalyst.platinum.name=Платиновый катализатор
+item.immersiveintelligence.material_catalyst.nickel.name=Никелевый катализатор
+
+item.immersiveintelligence.material_dye.red.name=Красный химический краситель
+item.immersiveintelligence.material_dye.blue.name=Синий химический краситель
+item.immersiveintelligence.material_dye.green.name=Зелёный химический краситель
+item.immersiveintelligence.material_dye.cyan.name=Бирюзовый химический краситель
+item.immersiveintelligence.material_dye.yellow.name=Жёлтый химический краситель
+item.immersiveintelligence.material_dye.magenta.name=Пурпурный химический краситель
+item.immersiveintelligence.material_dye.black.name=Чёрный химический краситель
+
+#Chemistry Fluids
 
 item.immersiveintelligence.circuit_functional.arithmetic.name=Арифметическая плата
 item.immersiveintelligence.circuit_functional.advanced_arithmetic.name=Продвинутая арифметическая плата
@@ -521,6 +566,10 @@ tile.immersiveintelligence.ore.salt.name=Каменная соль
 
 tile.immersiveintelligence.ore.fluorite.name=Руда незерского флюорита
 tile.immersiveintelligence.ore.phosphorus.name=Руда незерского фосфора
+tile.immersiveintelligence.ore.sulfur.name=Руда незерской серы 
+tile.immersiveintelligence.ore.fluorite_overworld.name=Руда флюорита
+tile.immersiveintelligence.ore.phosphorus_overworld.name=Руда фосфора
+tile.immersiveintelligence.ore.sulfur_overworld.name=Руда серы
 
 tile.immersiveintelligence.sheetmetal.brass.name=Латунный листовой металл
 tile.immersiveintelligence.storage.brass.name=Латунный блок
@@ -537,6 +586,26 @@ tile.immersiveintelligence.fence_tungsten.name=Вольфрамовый забо
 tile.immersiveintelligence.fence_zinc.name=Цинковый забор
 tile.immersiveintelligence.fence_platinum.name=Платиновый забор
 tile.immersiveintelligence.fence_duraluminium.name=Дюралюминиевый забор
+tile.immersiveintelligence.fence_stainless_steel.name=Нержавеющей стали забор
+
+tile.immersiveintelligence.ore.tin.name=Оловянная руда
+tile.immersiveintelligence.sheetmetal.tin.name=Оловянный листовой металл
+tile.immersiveintelligence.storage.tin.name=Оловянный блок
+tile.immersiveintelligence.sheetmetal_slab.tin.name=Плита оловянного листового металла
+tile.immersiveintelligence.storage_slab.tin.name=Оловянная плита
+
+tile.immersiveintelligence.ore.chromium.name=Хромовая руда
+tile.immersiveintelligence.sheetmetal.chromium.name=Хромовый листовой металл
+tile.immersiveintelligence.storage.chromium.name=Хромовый блок
+tile.immersiveintelligence.sheetmetal_slab.chromium.name=Плита хромового листового металла
+tile.immersiveintelligence.storage_slab.chromium.name=Хромовая плита
+
+tile.immersiveintelligence.sheetmetal.stainless_steel.name=Листовой металл из нержавеющей стали
+tile.immersiveintelligence.storage.stainless_steel.name=Блок из нержавеющей стали
+tile.immersiveintelligence.sheetmetal_slab.stainless_steel.name=Плита листового металла из нержавеющей стали
+tile.immersiveintelligence.storage_slab.stainless_steel.name=Плита из нержавеющей стали
+
+tile.immersiveintelligence.industrial_glowstone.industrial.name=Промышленный светокамень
 
 tile.immersiveintelligence.rubber_log.raw.name=Бревно гевеи
 tile.immersiveintelligence.rubber_log.rebbur.name=Место для извлечения каучука
@@ -578,6 +647,7 @@ tile.immersiveintelligence.metal_decoration.advanced_electronic_engineering.name
 tile.immersiveintelligence.metal_decoration.computer_engineering.name=Компьютерный инженерный блок
 tile.immersiveintelligence.metal_decoration.mechanical_engineering.name=Механический инженерный блок
 tile.immersiveintelligence.metal_decoration.heavy_mechanical_engineering.name=Тяжёлый механический инженерный блок
+tile.immersiveintelligence.metal_decoration.chemical_engineering.name=Химический инженерный блок
 
 tile.immersiveintelligence.metal_decoration.coil_data.name=Блок катушки кабеля данных
 tile.immersiveintelligence.cloth_decoration.coil_rope.name=Блок катушки верёвки
@@ -859,6 +929,17 @@ fluid.carbon_dioxide=Углекислый газ
 fluid.carbon_monoxide=Угарный газ
 fluid.mustard_gas=Горчичный газ
 
+fluid.butadiene=Бутадиен
+fluid.sulfur_dioxide=Диоксид серы
+fluid.sulfur_trioxide=Триоксид серы
+fluid.hydrogen_sulfide=Серововдород
+fluid.argon=Аргон
+fluid.nitrogen=Азот
+fluid.tear_gas=Слезоточивый газ
+fluid.phosgene=Фосген
+fluid.sarin=Зарин
+fluid.tabun=Табун
+
 fluid.brine=Рассол
 
 fluid.ammonia=Аммиак
@@ -868,12 +949,24 @@ fluid.rocket_propellant=Ракетное топливо
 
 fluid.latex=Латекс
 
+fluid.acetaldol=Ацетальдол
+fluid.atropine=Атропин
+fluid.glycerin=Глицерин
+fluid.acetic_acid=Уксусная кислота
+fluid.hydrazine=Гидразин
+fluid.monomethylhydrazine=Метилгидразин
+fluid.hydrogen_peroxide=Перекись водорода
+fluid.nitroglycerin=Нитроглицерин
+fluid.nitrogen_tetroxide=Тетраоксид диазота
+fluid.sodium_hypochlorite=Гипохлорит натрия
+
 #Dusts
 dust.gunpowder=Порох
 dust.sulfur=Сера
 dust.sawdust=Опилки
 dust.sand=Песок
 dust.gravel=Гравий
+dust.slag=Slag Dust
 
 #Sounds
 
@@ -1403,7 +1496,6 @@ desc.immersiveintelligence.diplomacy.rolename.owner=Владелец
 desc.immersiveintelligence.diplomacy.rolename.trusted=Доверенный
 
 desc.immersiveintelligence.diplomacy.rolename.member=Участник
-desc.immersiveintelligence.diplomacy.rolename.citizen=Гражданин
 
 desc.immersiveintelligence.diplomacy.rolename.ceo=Генеральный директор
 desc.immersiveintelligence.diplomacy.rolename.cfo=Финансовый директор
@@ -1420,7 +1512,7 @@ desc.immersiveintelligence.diplomacy.rolename.supreme_commissar=Верховны
 desc.immersiveintelligence.diplomacy.rolename.comissar=Комиссар
 desc.immersiveintelligence.diplomacy.rolename.officer=Офицер
 desc.immersiveintelligence.diplomacy.rolename.enforcer=Силовик
-#desc.immersiveintelligence.diplomacy.rolename.citizen=
+desc.immersiveintelligence.diplomacy.rolename.citizen=Гражданин
 desc.immersiveintelligence.diplomacy.rolename.sub_citizen=Гражданин второго сорта
 
 desc.immersiveintelligence.diplomacy.rolename.mayor=Мэр
@@ -1613,6 +1705,7 @@ desc.immersiveintelligence.bullet_core_type.piercing=Бронебойный
 desc.immersiveintelligence.bullet_core_type.piercing_sabot=Подкалиберный 
 desc.immersiveintelligence.bullet_core_type.canister=Шрапнельный
 desc.immersiveintelligence.bullet_core_type.cluster=Кластерный
+
 desc.immersiveintelligence.effect_shape.star=Звезда
 desc.immersiveintelligence.effect_shape.orb=Шар
 desc.immersiveintelligence.effect_shape.line=Линия
@@ -1663,10 +1756,11 @@ desc.immersiveintelligence.bullets.armor_penetration=Бронебойность:
 desc.immersiveintelligence.bullet_magazine.remaining=Осталось патронов: %s
 desc.immersiveintelligence.bullet_magazine.empty=Пуст
 
+# Recipe layout information
+desc.immersiveintelligence.recipe.tool_slot=Инструмент, он будет поврежден в процессе работы.
 desc.immersiveintelligence.jei.washing_recipe=Химическая мойка
 desc.immersiveintelligence.jei.projectile_workshop_recipe=Мастерская пуль
 desc.immersiveintelligence.jei.projectile_filling_recipe=Наполнение снарядов
-
 desc.immersiveintelligence.recipe.filling=Требуется наполнитель снарядов
 desc.immersiveintelligence.recipe.filling_inserter=Требуется наполнитель снарядов и манипулятор
 desc.immersiveintelligence.recipe.component_units=%s единиц, %s за предмет
@@ -1692,7 +1786,12 @@ potion.immersiveintelligence.enemys_nest=Логово врага
 potion.immersiveintelligence.home_shores=Родные берега
 potion.immersiveintelligence.homeland=Наша земля
 potion.immersiveintelligence.heartland=Родина
-
+potion.immersiveintelligence.neuroparalitic=Нейропаралич
+potion.immersiveintelligence.fullparalysis=Парализован
+potion.immersiveintelligence.poisonIrritant=Irritant
+potion.immersiveintelligence.suffocator=Удушение
+potion.immersiveintelligence.suffocatordelayed1=Удушение (отсроченое)
+potion.immersiveintelligence.suffocatordelayed2=Удушение (накопленное)
 #Chat info / debug
 info.immersiveintelligence.frequency_set=Радиочастота была установлена на %s
 info.immersiveintelligence.frequency_invalid=Неверная частота, базовые устройства могут использовать частоты до %s!
@@ -3967,6 +4066,7 @@ ii.gui_tooltip.widget.style.style_names.steel=Сталь
 ii.gui_tooltip.widget.style.style_names.bricks=Кирпичи
 ii.gui_tooltip.widget.style.style_names.concrete=Бетон
 ii.gui_tooltip.widget.style.style_names.naval=Морской
+
 ii.gui_tooltip.widget.style.color=Цвет
 ii.gui_tooltip.widget.ownership.show=Показывать данные о владельце
 ii.gui_tooltip.widget.ownership.hide=Скрыть данные о владельце
@@ -4041,7 +4141,7 @@ ie.manual.entry.bullet_component.windcharge.lore=Как?
 ie.manual.entry.bullet_component.windcharge.desc=Сгущённый ветер, добытый из Бризов. Заряды ветра отбрасывают цели и накладывают замедление и подавление в небольшом радиусе. Благодаря свойствам заряда его мощность остаётся неизменной независимо от размера снаряда.
 
 # Thaumcraft Compat
-
+# Despite its small size, rules of physics dictate that compression of such matter by integrated detonator explosive can only result in unparraleled levels of destruction from sheer amount of energy unleashed at once.
 item.immersiveintelligence.bullet.component.primordial_pearl.name=Первородная жемчужина
 ie.manual.entry.bullet_component.primordial_pearl=Первородная жемчужина
 ie.manual.entry.bullet_component.primordial_pearl.lore=Магический Оппенгеймер
@@ -4076,6 +4176,7 @@ ie.manual.entry.bullet_component.impetus.lore=Сила разлома в бан�
 ie.manual.entry.bullet_component.impetus.desc=Опасный побочный продукт Флюкс-разломов, не до конца изученный материал или явление. «Насыщение» снаряда энергией Импетуса значительно усиливает и перегружает его летальность.
 
 #Banner patterns
+
 item.banner.immersiveintelligence_wrench.black=Чёрный гаечный ключ
 item.banner.immersiveintelligence_wrench.red=Красный гаечный ключ
 item.banner.immersiveintelligence_wrench.green=Зелёный гаечный ключ
